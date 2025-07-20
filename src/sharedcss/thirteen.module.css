@@ -1,0 +1,55 @@
+.dialog.svelte-1cxiref {
+    position: fixed;
+    top: auto;
+    display: flex;
+    justify-content: center;
+    max-width: none;
+    max-height: none;
+    padding: 0;
+    overflow: visible;
+    background: none;
+    border: none
+}
+
+.dialog[data-backdrop=transparent].svelte-1cxiref::backdrop {
+    background-color: #0009
+}
+
+.dialog[data-backdrop=fill].svelte-1cxiref::backdrop {
+    background-color: #303030
+}
+
+.dialog.svelte-1cxiref:not([open]) {
+    display: none
+}
+
+.header.svelte-x88ej1 {
+    display: flex;
+    flex-direction: column
+}
+
+.title.svelte-x88ej1 {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 150%;
+    color: #4e4b4b;
+    text-align: center
+}
+
+.close-area.svelte-x88ej1 {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 10px 10px 0 0
+}
+
+.close.svelte-x88ej1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    outline: none;
+    background: #eee;
+    border: none;
+    border-radius: 50%
+}

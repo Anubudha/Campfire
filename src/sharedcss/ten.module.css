@@ -1,0 +1,50 @@
+.notify-bar.svelte-ce0qnc {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 80px;
+    padding: 8px;
+    overflow: hidden;
+    font-size: 18px;
+    text-align: center;
+    background-color: #f6d26fcc;
+    transform: translateY(-100%);
+    animation-name: svelte-ce0qnc-fade-out;
+    animation-duration: 1s;
+    animation-delay: 5s;
+    animation-fill-mode: backwards
+}
+
+@media (max-width: 767px) {
+    .notify-bar.svelte-ce0qnc {
+        min-height:50px;
+        padding: 4px;
+        font-size: 14px
+    }
+}
+
+.notify-bar.notice.svelte-ce0qnc {
+    background-color: #f6d26fcc;
+    animation-delay: 3s
+}
+
+.notify-bar.alert.svelte-ce0qnc {
+    color: #fff;
+    background-color: #e13a43;
+    animation-delay: 5s
+}
+
+@keyframes svelte-ce0qnc-fade-out {
+    0% {
+        transform: translateY(0)
+    }
+
+    to {
+        transform: translateY(-100%)
+    }
+}

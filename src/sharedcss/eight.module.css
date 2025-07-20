@@ -1,0 +1,254 @@
+.help.svelte-zzwg7e {
+    font-size: 14px
+}
+
+@media (max-width: 767px) {
+    .help.svelte-zzwg7e {
+        font-size:12px
+    }
+}
+
+.help.svelte-zzwg7e:link,.help.svelte-zzwg7e:visited {
+    color: #307bf6
+}
+
+.container.svelte-1d8yp65,.message-container.svelte-1d8yp65 {
+    display: flex;
+    flex-direction: column;
+    gap: 16px
+}
+
+.message.svelte-1d8yp65 {
+    padding: 16px;
+    color: #4d4a4a;
+    border: 1px solid #d9dee5
+}
+
+.help.svelte-1d8yp65 {
+    display: flex;
+    justify-content: flex-end
+}
+
+@media (max-width: 767px) {
+    .help.svelte-1d8yp65 {
+        justify-content:center
+    }
+}
+
+.link.svelte-1d8yp65 {
+    color: #307bf6
+}
+
+textarea.svelte-1d8yp65 {
+    width: 100%;
+    min-height: 95px;
+    padding: 16px;
+    color: #4d4a4a;
+    border: 1px solid #d9dee5;
+    border-radius: 4px
+}
+
+.button-area.svelte-1d8yp65 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+@media (max-width: 767px) {
+    .button-area.svelte-1d8yp65 {
+        flex-direction:column;
+        gap: 16px
+    }
+}
+
+@media not all and (max-width: 767px) {
+    .button-area.svelte-1d8yp65 .help:where(.svelte-1d8yp65) {
+        position:absolute;
+        top: 0;
+        right: 0
+    }
+}
+
+.action-link.svelte-tmotem {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    font-size: 12px;
+    cursor: pointer
+}
+
+@media (max-width: 767px) {
+    .action-link.svelte-tmotem {
+        font-size:10px
+    }
+}
+
+.comment.svelte-o7nd34 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 16px
+}
+
+.replay-vertical-rule.svelte-o7nd34 {
+    position: absolute;
+    inset: 52px auto 16px 24px;
+    border-left: 1px solid #e4e4e4
+}
+
+@media (max-width: 767px) {
+    .replay-vertical-rule.svelte-o7nd34 {
+        inset:35px auto 16px 16px
+    }
+}
+
+.reply.svelte-o7nd34 {
+    padding-left: 48px
+}
+
+.image.svelte-o7nd34 {
+    width: 48px;
+    height: 48px;
+    object-fit: cover;
+    border: 1px solid #d4d4d4;
+    border-radius: 50%
+}
+
+@media (max-width: 767px) {
+    .image.svelte-o7nd34 {
+        width:32px;
+        height: 32px
+    }
+}
+
+.container.svelte-o7nd34 {
+    display: flex;
+    gap: 16px
+}
+
+@media (max-width: 767px) {
+    .container.svelte-o7nd34 {
+        gap:8px
+    }
+}
+
+.content.svelte-o7nd34 {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 100%
+}
+
+.header.svelte-o7nd34 {
+    display: flex;
+    flex-direction: column;
+    gap: 4px
+}
+
+.header-top.svelte-o7nd34 {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr auto
+}
+
+.user-display-name.svelte-o7nd34 {
+    display: -webkit-box;
+    max-height: 1.35em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    line-clamp: 1
+}
+
+@supports (height: 1lh) {
+    .user-display-name.svelte-o7nd34 {
+        max-height:1lh
+    }
+}
+
+@media (max-width: 767px) {
+    .user-display-name.svelte-o7nd34 {
+        font-size:12px
+    }
+}
+
+.date-action-container.svelte-o7nd34 {
+    display: flex;
+    justify-content: space-between
+}
+
+.date.svelte-o7nd34 {
+    font-size: 13px;
+    color: #999
+}
+
+@media (max-width: 767px) {
+    .date.svelte-o7nd34 {
+        font-size:12px
+    }
+}
+
+.action.svelte-o7nd34 {
+    display: flex;
+    gap: 16px
+}
+
+.reply-link.svelte-o7nd34 {
+    color: #4d4a4a
+}
+
+.delete-link.svelte-o7nd34 {
+    color: #999
+}
+
+.vertical-rule.svelte-o7nd34 {
+    border: 1px solid #d9dee5
+}
+
+.reply-list.svelte-o7nd34 {
+    display: flex;
+    flex-direction: column;
+    gap: 16px
+}
+
+@media not all and (max-width: 767px) {
+    .reply-list.svelte-o7nd34 {
+        margin-top:8px
+    }
+}
+
+.body.svelte-o7nd34 {
+    font-size: 15px;
+    line-height: 160%;
+    color: #4d4a4a
+}
+
+a.svelte-o7nd34 {
+    color: #307bf6
+}
+
+hr.svelte-o7nd34 {
+    height: 1px;
+    background-color: #f3f3f3;
+    border: none
+}
+
+.container.svelte-1ex8h7z,.comment-form.svelte-1ex8h7z {
+    display: flex;
+    flex-direction: column;
+    gap: 32px
+}
+
+hr.svelte-1ex8h7z {
+    height: 1px;
+    background-color: #f3f3f3;
+    border: none
+}
+
+.comment-list-contaienr.svelte-1ex8h7z,.comment-list.svelte-1ex8h7z {
+    display: flex;
+    flex-direction: column;
+    gap: 16px
+}

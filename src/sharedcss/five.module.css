@@ -1,0 +1,32 @@
+.announcement.svelte-1iokvpb {
+    padding: 10px;
+    background-color: #fff
+}
+
+.announcement.fill.svelte-1iokvpb {
+    background-color: #f6f8fa
+}
+
+.announcement-item.svelte-1iokvpb {
+    margin-bottom: 10px;
+    text-align: center
+}
+
+@media (max-width: 767px) {
+    .announcement-item.svelte-1iokvpb {
+        font-size:12px
+    }
+}
+
+.announcement-item.svelte-1iokvpb:last-child {
+    margin-bottom: 0
+}
+
+.announcement-item.svelte-1iokvpb a:where(.svelte-1iokvpb) {
+    color: #e13a43
+}
+
+.announcement-item.svelte-1iokvpb span:where(.svelte-1iokvpb) {
+    display: inline-block;
+    font-size: 10px
+}

@@ -1,0 +1,42 @@
+.countdown.svelte-1rpy7el {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+    padding: 18px 0;
+    color: #fff;
+    background-color: #ef4846
+}
+
+@media (max-width: 767px) {
+    .countdown.svelte-1rpy7el {
+        flex-direction:column;
+        gap: 8px;
+        padding: 12px 0
+    }
+}
+
+.text.svelte-1rpy7el {
+    display: flex;
+    font-size: 18px;
+    font-weight: 700
+}
+
+@media (max-width: 767px) {
+    .text.svelte-1rpy7el {
+        font-size:16px
+    }
+}
+
+.open-date.svelte-1rpy7el {
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    font-size: 14px
+}
+
+@media (max-width: 767px) {
+    .open-date.svelte-1rpy7el {
+        font-size:12px
+    }
+}

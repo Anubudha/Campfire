@@ -1,0 +1,43 @@
+@media (max-width: 767px) {
+    nav.svelte-6n36uh {
+        padding:0 16px 10px
+    }
+}
+
+nav.svelte-6n36uh ol:where(.svelte-6n36uh) {
+    display: flex;
+    padding: 0 32px 20px;
+    margin: 40px 0 0;
+    list-style: none
+}
+
+@media (max-width: 767px) {
+    nav.svelte-6n36uh ol:where(.svelte-6n36uh) {
+        display:block;
+        padding: 0 0 10px;
+        margin: 40px 0 0;
+        overflow-x: auto;
+        font-size: 12px;
+        white-space: nowrap
+    }
+}
+
+nav.svelte-6n36uh ol:where(.svelte-6n36uh) li:where(.svelte-6n36uh) {
+    color: #999
+}
+
+@media (max-width: 767px) {
+    nav.svelte-6n36uh ol:where(.svelte-6n36uh) li:where(.svelte-6n36uh) {
+        display:inline;
+        line-height: 1.8
+    }
+}
+
+nav.svelte-6n36uh ol:where(.svelte-6n36uh) li:where(.svelte-6n36uh) a:where(.svelte-6n36uh) {
+    color: #666;
+    text-decoration: underline
+}
+
+nav.svelte-6n36uh ol:where(.svelte-6n36uh) li:where(.svelte-6n36uh) span:where(.svelte-6n36uh) {
+    margin: 0 4px
+}
